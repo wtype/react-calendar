@@ -15,6 +15,7 @@ body {
   background: var(--darkness);
   color: var(--light);
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 main {
   padding: 6vmin;
@@ -59,7 +60,7 @@ main {
   padding-top: 6vmin;
   width: 100%;
   border: 0.5px solid var(--primary);
-  background: rgba(255, 182, 108, 0.05);
+  background: rgba(255, 182, 108, 0.03);
 }
 .calendar h1 {
   text-align: left;
